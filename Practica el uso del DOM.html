@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Encuesta de anime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="encuesta">
+
+        <h1>Encuesta de gustos</h1>
+
+        <p class="pregunta">
+            ¿Cuál de estas series de anime de gusta mas?
+        </p>
+
+        <div class="opcion">
+            <input type="checkbox" id="vagabond">
+            <label for="vagabond">Vagabond</label>
+        </div>
+
+        <div class="opcion">
+            <input type="checkbox" id="cyberpunk">
+            <label for="cyberpunk">Cyberpunk: Edgerunners</label>
+        </div>
+
+        <button id="btn-revisar">Revisar respuesta</button>
+
+        <button id="btn-enviar" disabled>Enviar encuesta</button>
+
+        <p id="resultado"></p>
+
+     <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
